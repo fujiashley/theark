@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>The Ark</title>
+</head>
+
+<body>
+  <section id="top-navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-color">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="img/ark-logo.png" alt="" width="20%" height="20%"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#theark-about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#theark-ourhome">Our Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#theark-family">Our Family</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#theark-location">Location</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section id="top-carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/ark3-1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block carousel-bg-custom">
+            <h5>Welcome to the Ark!</h5>
+            <p>Our beautiful home in Trivandrum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/ark4-1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block carousel-bg-custom">
+            <h5>Architectural Style</h5>
+            <p>Contemporary blended with traditional elements to give a sense of warmth.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/ark11-1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block carousel-bg-custom">
+            <h5>Shining bright in the dark!</h5>
+            <p>Well lit with a mix of power and solar lights to ensure lights are always on incase of power failure.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="theark-about" class="section-bg-color section-padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 my-auto embed-responsive embed-responsive-4by3">
+          <video width="400" height="inherit" class="vid-border" autoplay loop muted preload="auto">
+            <source src="asset/ark-vid2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="col-lg-7 my-auto">
+          <i class="icon-light far fa-comment-dots fa-3x add-r-padding"></i>
+          <h1 class="text-white">About</h1>
+          <p class="text-white-50">Why name our house "The Ark"? Well it's a reminder of the biblical story of Noah's Ark or rather the Ark God provided to save Noah and his family from the great flood.</p>
+          <p class="text-white-50">Likewise this humble abode is God's blessing to us - a place of shelter, warmth, peace for the whole family.</p>
+          <p class="text-white-50">A lot of effort and resources went into building this home which was not possible without the support of our parents. We are greatly indepted to them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="theark-ourhome" class="section-padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col d-flex justify-content-center title">
+          <i class="fas fa-home fa-3x add-r-padding"></i>
+          <h1>Our Home</h1>
+        </div>
+      </div>
+      <div class="row add-padding">
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card card-style">
+            <div class="card-img-wrap">
+              <img src="img/ark4.jpg" class="card-img-top card-img" alt="...">
+            </div>
+            <a href="" data-bs-toggle="modal" data-bs-target="#architectureModal" style="text-decoration:none; color:inherit;">
+              <div class="card-body">
+                <h5 class="card-title">Architecture</h5>
+                <p class="card-text">A mix of metal, glass and wood bringing a sense of warmth in a tropical backdrop.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card card-style">
+            <div class="card-img-wrap">
+              <img src="img/ark5.jpg" class="card-img-top card-img" alt="...">
+            </div>
+            <a href="" data-bs-toggle="modal" data-bs-target="#interiorModal" style="text-decoration:none; color:inherit;">
+              <div class="card-body">
+                <h5 class="card-title">Interiors</h5>
+                <p class="card-text">Roomy interiors with contemporary decor makes it a place to enjoy everyday.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card card-style">
+            <div class="card-img-wrap">
+              <img src="img/ark13.jpg" class="card-img-top card-img" alt="...">
+            </div>
+            <a href="" data-bs-toggle="modal" data-bs-target="#landscapeModal" style="text-decoration:none; color:inherit;">
+              <div class="card-body">
+                <h5 class="card-title">Landscape</h5>
+                <p class="card-text">Enough frontage for the kids to play and a backyard to grow fruits and veggies!</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Architecture Gallery -->
+      <div class="modal fade" tabindex="-1" id="architectureModal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Architecture</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="architectureCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/ark7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ark3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ark2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#architectureCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#architectureCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interior Gallery -->
+      <div class="modal fade" tabindex="-1" id="interiorModal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Interiors</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="interiorCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/ark5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ark6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ark8.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ark9.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ark10.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#interiorCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#interiorCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Landscape Gallery -->
+      <div class="modal fade" tabindex="-1" id="landscapeModal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Landscape</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="landscapeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/ark13.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ark30.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#landscapeCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#landscapeCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="theark-family" class="section-bg-color section-padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col d-flex justify-content-center title">
+          <i class="fas fa-user-friends fa-3x icon-light add-r-padding"></i>
+          <h1 class="text-white">Our Family</h1>
+        </div>
+      </div>
+
+      <div class="row add-padding">
+        <div class="col-lg-3">
+          <a href="#aboutAnish" data-bs-toggle="collapse" style="text-decoration:none; color:inherit;">
+            <div class="card-img-wrap">
+              <img src="img/anish-1.jpg" alt="" class="mx-auto d-block">
+            </div>
+          </a>
+          <div class="card collapse" id="aboutAnish">
+            <div class="card-body ">
+              <h5 class="card-title">Hi, I'm Anish</h5>
+              <p class="card-text">The Ark is not just my home but my workshop and gym.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <a href="#aboutRinu" data-bs-toggle="collapse" style="text-decoration:none; color:inherit;">
+            <div class="card-img-wrap">
+              <img src="img/rinu.jpg" alt="" class="mx-auto d-block">
+            </div>
+          </a>
+          <div class="card collapse" id="aboutRinu">
+            <div class="card-body ">
+              <h5 class="card-title">Hi, I'm Rinu</h5>
+              <p class="card-text">The Ark is where i can rummage through my large collection of books.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <a href="#aboutRebecca" data-bs-toggle="collapse" style="text-decoration:none; color:inherit;">
+            <div class="card-img-wrap">
+              <img src="img/rebecca.jpg" alt="" class="mx-auto d-block">
+            </div>
+          </a>
+          <div class="card collapse" id="aboutRebecca">
+            <div class="card-body ">
+              <h5 class="card-title">Hi, I'm Rebecca</h5>
+              <p class="card-text">The Ark is a place where i can dream, play piano, chess and what not.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <a href="#aboutJoshua" data-bs-toggle="collapse" style="text-decoration:none; color:inherit;">
+            <div class="card-img-wrap">
+              <img src="img/joshua-1.jpg" alt="" class="mx-auto d-block">
+            </div>
+          </a>
+          <div class="card collapse" id="aboutJoshua">
+            <div class="card-body ">
+              <h5 class="card-title">Hi, I'm Josshua</h5>
+              <p class="card-text">The Ark is my grand play area.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="theark-location" class="section-padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col d-flex justify-content-center title">
+          <i class="fas fa-map-marker-alt fa-3x add-r-padding"></i>
+          <h1 class="text-black">Location</h1>
+        </div>
+      </div>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1972.6194062861723!2d76.89645223369541!3d8.573021469501727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68bbd1b0e3b69ac4!2zOMKwMzQnMjIuOCJOIDc2wrA1Myc1MC40IkU!5e0!3m2!1sen!2sin!4v1637932505078!5m2!1sen!2sin"
+          width="95%" height="auto" style="border:1px solid black;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer id="theark-footer" class="section-bg-color footer-padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <a href="https://www.facebook.com/profile.php?id=100004187087015"><i class="fab fa-facebook-f fa-2x icon-light icon"></i><a>
+        </div>
+      </div>
+      <p class="text-white-50 text-center">© Copyright 2021 The Ark</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f3877d03f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
